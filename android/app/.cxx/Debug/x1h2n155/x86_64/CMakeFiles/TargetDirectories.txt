@@ -1,0 +1,2 @@
+C:/MyMobileApps/moncheri/android/app/.cxx/Debug/x1h2n155/x86_64/CMakeFiles/edit_cache.dir
+C:/MyMobileApps/moncheri/android/app/.cxx/Debug/x1h2n155/x86_64/CMakeFiles/rebuild_cache.dir
