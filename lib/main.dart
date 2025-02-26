@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:moncheri/category.dart';
-import 'package:moncheri/quote_category.dart';
 
 void main() {
   runApp(CupertinoApp(

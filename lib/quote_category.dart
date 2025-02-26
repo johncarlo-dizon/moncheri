@@ -3,7 +3,6 @@ import 'package:moncheri/category.dart';
 import 'package:moncheri/confidence.dart';
 import 'package:moncheri/inspirational.dart';
 import 'package:moncheri/love.dart';
-import 'package:moncheri/main.dart';
 import 'package:moncheri/motivational.dart';
 import 'package:moncheri/philosopical.dart';
 import 'package:moncheri/positive.dart';

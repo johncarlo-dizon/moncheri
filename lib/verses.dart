@@ -3,7 +3,6 @@ import 'package:moncheri/category.dart';
 import 'package:moncheri/faithverse.dart';
 import 'package:moncheri/hopeverse.dart';
 import 'package:moncheri/loveverse.dart';
-import 'package:moncheri/motivational.dart';
 import 'package:moncheri/strengthverse.dart';
 
 class VerseCategory extends StatefulWidget {
