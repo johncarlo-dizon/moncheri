@@ -247,7 +247,7 @@ class _MyAppState extends State<MyApp> {
                       height: 160,
                     ),
                     Image.asset(
-                      'images/woman.png',
+                      'images/butterfly.png',
                       width: 100,
                       height: 100,
                     ),
@@ -255,7 +255,7 @@ class _MyAppState extends State<MyApp> {
                       height: 15,
                     ),
                     Text(
-                      'Mon chéri',
+                      'Ashborn',
                       style: TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,
