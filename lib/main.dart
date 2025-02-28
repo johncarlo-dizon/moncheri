@@ -255,7 +255,7 @@ class _MyAppState extends State<MyApp> {
                       height: 15,
                     ),
                     Text(
-                      'Ashborn',
+                      'Mon chéri',
                       style: TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,

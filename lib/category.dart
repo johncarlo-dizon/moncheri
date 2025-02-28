@@ -29,7 +29,7 @@ class _CategoryAppState extends State<CategoryApp> {
                     (Route<dynamic> route) => false);
               }),
           middle: Text(
-            'Ashborn',
+            'Mon chéri',
             style: TextStyle(color: Color(0xFF1A120B)),
           ),
         ),
