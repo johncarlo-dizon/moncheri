@@ -29,7 +29,7 @@ class _CategoryAppState extends State<CategoryApp> {
                     (Route<dynamic> route) => false);
               }),
           middle: Text(
-            'Mon chéri',
+            'Mon Chéri',
             style: TextStyle(color: Color(0xFF1A120B)),
           ),
         ),
@@ -40,28 +40,47 @@ class _CategoryAppState extends State<CategoryApp> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 180,
+                    height: 80,
                   ),
+
+
+                  Image.asset(
+                    'images/b2.png',
+                    width: 150,
+                    height: 150,
+                  ),
+
+
+                  SizedBox(
+                    height: 10,
+                  ),
+
+
                   Text('Discover Daily Inspiration and Motivation',
                       style: TextStyle(
                         fontSize: 30,
+                        color: Color(0xFF0d0d0d)
                       ),
                       textAlign: TextAlign.center),
+
+
                   SizedBox(
-                    height: 20,
+                    height: 40,
                   ),
+
+
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(50, 0, 50, 0),
+                    padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                     child: Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(30),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(50),
                       ),
                       child: CupertinoButton(
                           child: Text(
                             'Quotes',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFFD404040), fontWeight: FontWeight.bold),
                           ),
                           onPressed: () {
                             Navigator.pushReplacement(
@@ -71,21 +90,22 @@ class _CategoryAppState extends State<CategoryApp> {
                           }),
                     ),
                   ),
+
                   SizedBox(
                     height: 10,
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(50, 0, 50, 0),
+                    padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                     child: Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(30),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(50),
                       ),
                       child: CupertinoButton(
                           child: Text(
                             'Verses',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFFD404040), fontWeight: FontWeight.bold),
                           ),
                           onPressed: () {
                             Navigator.pushReplacement(

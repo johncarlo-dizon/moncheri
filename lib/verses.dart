@@ -44,16 +44,22 @@ class _VerseCategoryState extends State<VerseCategory> {
                   Container(
                     width: double.maxFinite,
                     decoration: BoxDecoration(
-                      color: Color(0xFFE5E5CB),
+                      color: Color(0xFFd9d9d9),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('images/pray.png'),
+                        alignment: Alignment.centerRight,
+                        fit: BoxFit.contain,
+                      ),
                     ),
                     child: Padding(
                       padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: CupertinoButton(
                           child: Text(
                             'Faith and Trust',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFF262626)),
                           ),
+                          alignment: Alignment.topLeft,
                           onPressed: () {
                             Navigator.pushReplacement(
                                 context,
@@ -68,16 +74,22 @@ class _VerseCategoryState extends State<VerseCategory> {
                   Container(
                     width: double.maxFinite,
                     decoration: BoxDecoration(
-                      color: Color(0xFFE5E5CB),
+                      color: Color(0xFFf2f2f2),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('images/compassion.png'),
+                        alignment: Alignment.centerRight,
+                        fit: BoxFit.contain,
+                      ),
                     ),
                     child: Padding(
                       padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: CupertinoButton(
                           child: Text(
                             'Love and Compassion',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFF0d0d0d)),
                           ),
+                          alignment: Alignment.topLeft,
                           onPressed: () {
                             Navigator.pushReplacement(
                                 context,
@@ -86,22 +98,30 @@ class _VerseCategoryState extends State<VerseCategory> {
                           }),
                     ),
                   ),
+
                   SizedBox(
                     height: 10,
                   ),
+
                   Container(
                     width: double.maxFinite,
                     decoration: BoxDecoration(
-                      color: Color(0xFFE5E5CB),
+                      color: Color(0xFFd9d9d9),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('images/succession-planning.png'),
+                        alignment: Alignment.centerRight,
+                        fit: BoxFit.contain,
+                      ),
                     ),
                     child: Padding(
                       padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: CupertinoButton(
                           child: Text(
                             'Hope and Encouragement',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFF262626)),
                           ),
+                          alignment: Alignment.topLeft,
                           onPressed: () {
                             Navigator.pushReplacement(
                                 context,
@@ -110,22 +130,30 @@ class _VerseCategoryState extends State<VerseCategory> {
                           }),
                     ),
                   ),
+
                   SizedBox(
                     height: 10,
                   ),
+
                   Container(
                     width: double.maxFinite,
                     decoration: BoxDecoration(
-                      color: Color(0xFFE5E5CB),
+                      color: Color(0xFFf2f2f2),
                       borderRadius: BorderRadius.circular(20),
+                      image: DecorationImage(
+                        image: AssetImage('images/butterfly1.png'),
+                        alignment: Alignment.centerRight,
+                        fit: BoxFit.contain,
+                      ),
                     ),
                     child: Padding(
                       padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: CupertinoButton(
                           child: Text(
                             'Strength and Courage',
-                            style: TextStyle(color: CupertinoColors.black),
+                            style: TextStyle(color: Color(0xFF0d0d0d)),
                           ),
+                          alignment: Alignment.topLeft,
                           onPressed: () {
                             Navigator.pushReplacement(
                                 context,

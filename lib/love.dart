@@ -379,7 +379,7 @@ class _LoveAppState extends State<LoveApp> {
                   Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: Color(0xFFE5E5CB),
+                      color: Color(0xFFf2f2f2),
                     ),
                     padding: EdgeInsets.all(30),
                     child: Column(
@@ -416,7 +416,7 @@ class _LoveAppState extends State<LoveApp> {
                             0.3, // Make width dynamic
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color(0xFF3C2A21),
+                          color: Color(0xFF262626),
                         ),
                         child: CupertinoButton(
                           padding: EdgeInsets.fromLTRB(5, 5, 5, 5),
@@ -454,7 +454,7 @@ class _LoveAppState extends State<LoveApp> {
                             0.3, // Make width dynamic
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color(0xFF3C2A21),
+                          color: Color(0xFF262626),
                         ),
                         child: CupertinoButton(
                           padding: EdgeInsets.fromLTRB(5, 5, 5, 5),

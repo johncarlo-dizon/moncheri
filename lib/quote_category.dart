@@ -49,16 +49,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/self-confidence.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Motivational Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color:  Color(0xFF262626)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -77,16 +83,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFf2f2f2),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/love-books.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Love Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color:  Color(0xFF0d0d0d)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -105,16 +117,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/inspiration.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Inspirational Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color:  Color(0xFF262626)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -133,16 +151,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFf2f2f2),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/thumbs-up.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Positive Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color: Color(0xFF0d0d0d)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -161,16 +185,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/sad1.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.fitHeight,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Sad Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color:  Color(0xFF262626)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -189,16 +219,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFf2f2f2),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/empire.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.fitHeight,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Philosophical Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color:  Color(0xFF0d0d0d)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
@@ -217,16 +253,22 @@ class _CategoryQuoteState extends State<CategoryQuote> {
                     Container(
                       width: double.maxFinite,
                       decoration: BoxDecoration(
-                        color: Color(0xFFE5E5CB),
-                        borderRadius: BorderRadius.circular(20),
+                        color: Color(0xFFd9d9d9),
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage('images/confidence.png'),
+                          alignment: Alignment.centerRight,
+                          fit: BoxFit.fitHeight,
+                        ),
                       ),
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                         child: CupertinoButton(
                             child: Text(
                               'Confident Quotes',
-                              style: TextStyle(color: CupertinoColors.black),
+                              style: TextStyle(color: Color(0xFF262626)),
                             ),
+                            alignment: Alignment.topLeft,
                             onPressed: () {
                               Navigator.pushReplacement(
                                   context,
